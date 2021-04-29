@@ -35,3 +35,19 @@
   font-weight: 300;
   color: rgba(256, 256, 256, 0.8);
 }
+
+.Track-play, .Track-pause {
+  display: block;
+  cursor: pointer;
+  background-color: #010c3f;
+  text-align: center;
+  font-size: .833rem;
+  transition: background-color .25s;
+  border: 0px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.Track-play:hover, .Track-pause:hover {
+  background-color: rgba(108, 65, 233, .7);
+}
